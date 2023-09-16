@@ -9,7 +9,7 @@ from .logger import LOGS
 class HellClient(Client):
     def __init__(self):
         self.app = Client(
-            "HellMusic",
+            "QNMusic",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
@@ -21,7 +21,7 @@ class HellClient(Client):
             "HellClient",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
-            session_string=Config.HELLBOT_SESSION,
+            session_string=Config.QNBOT_SESSION,
             no_updates=True,
         )
 
@@ -35,7 +35,7 @@ class HellClient(Client):
             self.app.name = me.first_name
             self.app.username = me.username
             LOGS.info(f"\x3e\x3e\x20{self.app.name}\x20\x69\x73\x20\x6f\x6e\x6c\x69\x6e\x65\x20\x6e\x6f\x77\x21")
-        if Config.HELLBOT_SESSION:
+        if Config.QNBOT_SESSION:
             await self.user.start()
             me = await self.user.get_me()
             self.user.id = me.id
@@ -43,8 +43,8 @@ class HellClient(Client):
             self.user.name = me.first_name
             self.user.username = me.username
             try:
-                await self.user.join_chat("Its_HellBot")
-                await self.user.join_chat("https://t.me/joinchat/LUzuM9rrEdIwZTFl")
+                await self.user.join_chat("EBD_QN")
+                await self.user.join_chat("https://t.me/EBD_QN_CHAT")
             except:
                 pass
             LOGS.info(f"\x3e\x3e\x20{self.user.name}\x20\x69\x73\x20\x6f\x6e\x6c\x69\x6e\x65\x20\x6e\x6f\x77\x21")
