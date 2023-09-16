@@ -212,4 +212,4 @@ class TEXTS:
         "__» Enjoy the music and let us know if you have any suggestions for improvement.__\n\n"
         "❤️🎶 @{2}"
     )
-    PERFORMER = "[ †hê Hêllẞø† ]"
+    PERFORMER = "[ 𝐄𝐁𝐃~𝐐𝐍 ]"
