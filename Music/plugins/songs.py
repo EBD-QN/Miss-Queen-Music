@@ -56,7 +56,7 @@ async def lyrics(_, message: Message):
         final = f"<b><i>• Song:</b></i> <code>{title}</code> \n<b><i>• Lyrics:</b></i> \n<code>{lyrics}</code>"
         if len(final) >= 4095:
             page_name = f"{title}"
-            to_paste = f"<img src='{image}'/> \n{final} \n<img src='https://telegra.ph/file/2c546060b20dfd7c1ff2d.jpg'/>"
+            to_paste = f"<img src='{image}'/> \n{final} \n<img src='https://telegra.ph/file/df04d52c2c5c37f9e285f.jpg'/>"
             link = await formatter.telegraph_paste(page_name, to_paste)
             await hell.edit_text(
                 f"**Lyrics too big! Get it from here:** \n\n• [{title}]({link})",
