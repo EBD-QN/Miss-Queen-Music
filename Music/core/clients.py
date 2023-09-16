@@ -9,7 +9,7 @@ from .logger import LOGS
 class HellClient(Client):
     def __init__(self):
         self.app = Client(
-            "QNMusic",
+            "HellMusic",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
