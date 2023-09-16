@@ -35,7 +35,7 @@ class HellClient(Client):
             self.app.name = me.first_name
             self.app.username = me.username
             LOGS.info(f"\x3e\x3e\x20{self.app.name}\x20\x69\x73\x20\x6f\x6e\x6c\x69\x6e\x65\x20\x6e\x6f\x77\x21")
-        if Config.QNBOT_SESSION:
+        if Config.HELLBOT_SESSION:
             await self.user.start()
             me = await self.user.get_me()
             self.user.id = me.id
