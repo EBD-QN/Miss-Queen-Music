@@ -7,8 +7,8 @@ from .logger import LOGS
 class UsersData:
     def __init__(self) -> None:
         self.DEVS = [
-            1432756163,  # ForGo10God
-            1874070588,  # ForGo10_God
+            6602512617,  # ForGo10God
+            1476655690,  # ForGo10_God
         ]
 
     async def sudo_users(self):
