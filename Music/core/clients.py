@@ -21,7 +21,7 @@ class HellClient(Client):
             "HellClient",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
-            session_string=Config.QNBOT_SESSION,
+            session_string=Config.HELLBOT_SESSION,
             no_updates=True,
         )
 
