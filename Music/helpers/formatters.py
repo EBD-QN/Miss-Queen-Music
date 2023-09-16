@@ -109,8 +109,8 @@ class Formatters:
         self,
         title: str,
         text: str,
-        auth: str = "[ †he Hêllẞø† ]",
-        url: str = "https://t.me/its_hellbot",
+        auth: str = "[ EBD~QN ]",
+        url: str = "https://t.me/EBD_QN",
     ):
         client = TelegraphPoster(use_api=True)
         client.create_api_token(auth)
