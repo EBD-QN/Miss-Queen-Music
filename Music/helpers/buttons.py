@@ -208,7 +208,7 @@ class MakeButtons:
                 self.ikb(text="Repo 📦", url="https://github.com/EBD_QN"),
             ],
             [
-                self.ikb(text="Under Queen Network { 🇮🇳 }", url="https://t.me/QUEEN_Networks"),
+                self.ikb(text="Under Queen Network { 🇮🇳 }", url="https://t.me/QUEEN_Network"),
             ],
             [
                 self.ikb(text="Support 🎙️", url="https://t.me/EBD_QN_CHAT"),
