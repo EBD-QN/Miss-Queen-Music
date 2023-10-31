@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>✨ †hê Hêllẞø† - ᴍᴜsɪᴄ 🎶</b>
+  <b>✨ 𝐌𝐢𝐬𝐬 𝐐𝐮𝐞𝐞𝐧 - ᴍᴜsɪᴄ 🎶</b>
 </h1>
 
 <p align="center">
@@ -7,7 +7,7 @@
 </p>
 
 <h6 align="center">
-  <b>⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡</b>
+  <b>⚡ ʟɛɢɛռɖaʀʏ ᴀғ 𝐄𝐁𝐃~𝐐𝐍 ⚡</b>
 </h6>
 
 <h3 align="center">
@@ -36,7 +36,7 @@
 ------
 ## 🎶 HellBot Music ![Version](https://img.shields.io/github/v/release/The-HellBot/Music?color=black&logo=github&logoColor=black&style=social)
 
-🎶 HellBot Music is a long awaited project from The-HellBot. This bot can stream songs on your telegram group voice chats.
+🎶 𝙴𝙱𝙳~𝚀𝙽 Music is a long awaited project from The-HellBot. This bot can stream songs on your telegram group voice chats.
 
 This is a light weight source, as a result it gives faster and better performance.
 
